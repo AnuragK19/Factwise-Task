@@ -74,3 +74,16 @@ tr.pending {
   justify-content: center;
   align-items: center;
 }
+
+@media (max-width: 500px) {
+  .float-left {
+    height: 60vh;
+    width: 100%;
+  }
+  .table {
+    width: 100%;
+  }
+  .scroll-it {
+    height: 40vh;
+  }
+}
